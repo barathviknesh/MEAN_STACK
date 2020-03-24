@@ -1,0 +1,18 @@
+<form (submit)="onRegisterSubmit()">
+    <div class="form-group">
+      <label for="NAME">NAME</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name">
+      
+      <label for="EMAIL">EMAIL</label>
+      <input type="EMAIL" class="form-control" id="EMAIL" [(ngModel)]="email" name="email">
+
+      <label for="USERNAME">USERNAME</label>
+      <input type="USERNAME" class="form-control" id="USERNAME" [(ngModel)]="username" name="username">
+
+      <label for="PASSWORD">PASSWORD</label>
+      <input type="PASSWORD" class="form-control" id="PASSWORD" [(ngModel)]="password" name="password">
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
