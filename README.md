@@ -20,3 +20,5 @@ ng serve
 // Visit localhost:4200 to see angular app
 
 the login form and authenticate request giving us back a json web token and user data that we can then store in local storage is done 27/03/2020
+
+//vist localhost:3000/     to see node serve
